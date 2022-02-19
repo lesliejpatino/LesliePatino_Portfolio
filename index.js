@@ -1,1 +1,1 @@
-AOS.init();
+// may add some js features later
