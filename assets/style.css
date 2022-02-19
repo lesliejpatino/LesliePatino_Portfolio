@@ -69,10 +69,17 @@ img {
     order: 2;
 }
 
+/* contact links */
+.navbarContact{
+    max-height: 30px;
+    max-width: 30px;
+}
+
 .contact-links {
     max-height: 50px;
     max-width: 50px;
 }
+
 
 @media(max-width: 700px) {
     .card {
