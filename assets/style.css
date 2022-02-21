@@ -30,43 +30,18 @@ a {
     text-decoration: none;
 }
 
-/* all project cards are wrapped in container */
-.container {
-    max-width: 1100px;
-    margin: auto;
-    overflow: auto;
-    padding: 0 2rem;
-}
-
-img {
-    width: 100%;
-}
+/* Project Cards */
+/* .card img {
+    height: 200px;
+} */
 
 .card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-    margin-bottom: 5rem; 
-}
-
-.card h3 {
-    margin-bottom: 2rem;
-}
-
-.description {
-    background: lightblue;
-}
-
-.card img {
     height: 400px;
+    overflow: scroll;
 }
 
-.card > div {
-    padding: 2rem;
-}
-
-.card:nth-child(even) img {
-    order: 2;
+#projects {
+    margin: 0 auto;
 }
 
 /* contact links */
