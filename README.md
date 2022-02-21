@@ -6,7 +6,7 @@ Thanks for visiting [my portfolio](https://lesliejpatino.github.io/LesliePatino_
 
 
 # Demo
-
+![site](assets/images/deployedpic.png)
 
 # Technologies Used
 

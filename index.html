@@ -18,14 +18,15 @@
 <body>
 
     <header class="my-5">
-        <h1 >Leslie Patino</h1>
+        <h1>Leslie Patino</h1>
         <h3>Full Stack <span>Web Developer</span></h3>
         <img src="assets/images/headshot.PNG" id="headshot">
 
         <div class="text-center">
             <a href="mailto:lesliejpatino@gmail.com" target="_blank"><img src="assets/images/email.png"
                     class="m-1 navbarContact"></a>
-            <a href="assets/images/Files/LesliePatino_Resume.pdf" target="_blank"><img src="assets/images/resumelink.png" class="m-1 navbarContact"></a>
+            <a href="assets/images/Files/LesliePatino_Resume.pdf" target="_blank"><img
+                    src="assets/images/resumelink.png" class="m-1 navbarContact"></a>
             <a href="https://github.com/lesliejpatino" target="_blank"><img src="assets/images/github.png"
                     class="m-1 navbarContact"></a>
             <a href="https://www.linkedin.com/in/lesliejpatino/" target="_blank"><img src="assets/images/linkedin.png"
@@ -34,14 +35,18 @@
     </header>
     <!-- Insert Nav Bar -->
 
-    <main class="container col-6 mb-5" id="aboutMe" data-aos="flip-up">
+    <main class="container col-lg-6 col-md-11 mb-5" id="aboutMe" data-aos="flip-up">
         <section data-aos="flip-up">
             <div class="p-3">
                 <h3 class="">WHO AM I?</h3>
                 <p class="">
-                    I'm a Full Stack Web Developer with a background in management, digital design, and event logistics. My career path has required creativity, problem-solving, personal and team development, and adaptability. I aim to leverage my knowledge and skills to develop thoughtful and intelligent web applications.
+                    I'm a Full Stack Web Developer with a background in management, digital design, and event logistics.
+                    My career path has required creativity, problem-solving, personal and team development, and
+                    adaptability. I aim to leverage my knowledge and skills to develop thoughtful and intelligent web
+                    applications.
                     <br>
-                    On a more personal note, I'm just a human who strives to be better everyday. I deeply enjoy playing beach volleyball, cracking jokes, writing, and practicing meditation. 
+                    On a more personal note, I'm just a human who strives to be better everyday. I deeply enjoy playing
+                    beach volleyball, cracking jokes, writing, and practicing meditation.
 
                     <!-- Possibly include email/phone # -->
                 </p>
@@ -51,63 +56,55 @@
 
 
     <!-- This will hold all the project cards -->
-    <main class="container" id="projects">
-        <section class="card" data-aos="fade-right">
-            <img src="assets/images/organizarr.gif" alt="">
-            <div class="description">
-                <h3 class="description">Organizarr</h3>
-                <p class="description">
-                    This application was created with the busy student in mind. After creating an account, users can access a personal dashboard where they can save notes, add items to their to-do list and create/attend study groups. 
-                </p>
-                <a href="https://dry-badlands-77030.herokuapp.com/" target="_blank" class="description">
-                    Click HERE to visit the live site!</a>
-                <br> or <br>
-                <a href="https://github.com/lesliejpatino/Organizarr" target="_blank" class="description">
-                    HERE to visit the GitHub repo</a>
-            </div>
-        </section>
+    <main class="col-11" id="projects">
+        <div class="row description" data-aos="fade-right">
+            <h1 class="text-center my-4"> My Projects </h1>
 
-        <section class="card" data-aos="fade-left">
-            <img src="assets/images/covid.gif" alt="">
-            <div class="description">
+            <section class="card col-4">
+                <a href="https://dry-badlands-77030.herokuapp.com/"><img src="assets/images/organizarr.gif" alt=""
+                        class="projectGif p-3" /><a>
+                        <br>
+                        <h3 class="description">Organizarr</h3>
+                        <p class="description p-3">
+                            This application was created with the busy student in mind. After creating an account, users
+                            can
+                            access a personal dashboard where they can save notes, add items to their to-do list and
+                            create/attend study groups.
+                        </p>
+                        <a href="https://dry-badlands-77030.herokuapp.com/" target="_blank" class="description">
+                            Click HERE to visit the live site!</a>
+                        <br> or <br>
+                        <a href="https://github.com/lesliejpatino/Organizarr" target="_blank" class="description">
+                            HERE to visit the GitHub repo</a>
+            </section>
+
+            <section class="card col-4">
+                <a href="https://lesliejpatino.github.io/Find-Covid-Testing/"><img src="assets/images/covid.gif" alt=""
+                        class="projectGif p-3"></a>
+                <br>
                 <h3 class="description">Map-a-Test: Find a Covid Testing Site Near You</h3>
-                <p class="description">This application was built for people in search of a Covid test. Through a simple
+                <p class="description p-3">This application was built for people in search of a Covid test. Through a
+                    simple
                     and straightforward UI, our site displays the closest testing sites based on the user's location.
                 </p>
-                <a href="https://lesliejpatino.github.io/Find-Covid-Testing/" target="_blank" class="description"> 
+                <a href="https://lesliejpatino.github.io/Find-Covid-Testing/" target="_blank" class="description">
                     Click HERE to visit the live site!</a>
                 <br> or <br>
                 <a href="https://github.com/lesliejpatino/Find-Covid-Testing" target="_blank" class="description">
                     HERE to visit the GitHub repo</a>
-            </div>
-        </section>
+            </section>
 
-        <section class="card" data-aos="fade-right">
-            <img src="assets/images/readme.gif" alt="">
-            <div class="description">
+            <section class="card col-4">
+                <a href="github.com/lesliejpatino/README-generator"><img src="assets/images/readme.gif" alt=""
+                        class="projectGif p-3"></a>
+                <br>
                 <h3 class="description">ReadMe Generator</h3>
-                <p class="description">This is a README generator that will allow the user to quickly create a
+                <p class="description p-3">This is a README generator that will allow the user to quickly create a
                     professional README directly from the command line. </p>
                 <a href="github.com/lesliejpatino/README-generator" target="_blank" class="description">
                     HERE to visit the GitHub repo</a>
-            </div>
-        </section>
-
-        <section class="card" data-aos="fade-left">
-            <img src="assets/images/pwgen.gif" alt="">
-            <div class="description">
-                <h3 class="description">Password Generator</h3>
-                <p class="description">This website generates a custom password for the user dependent on their
-                    preferences.
-                    At minimum, the user must select the length of their password and one criteria such as lower or uppercase letters, numbers or special characters.
-                    <br> Once the criteria is selected, the generator displays a password for the user. The generator will display error messages if the user does not select at least one criteria for their password.
-                </p> 
-                <a href="https://lesliejpatino.github.io/Password-Generator/" target="_blank" class="description"> 
-                    Click HERE to visit the live site!</a>
-                <a href="https://github.com/lesliejpatino/Password-Generator" target="_blank" class="description">
-                    HERE to visit the GitHub repo</a>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 
 
@@ -115,13 +112,10 @@
     <!-- Footer -->
     <div class="footer" id="footer-img">
         <div class="p-5 text-center">
-            <a href="mailto:lesliejpatino@gmail.com" target="_blank"><img src="assets/images/email.png"
-                    class="m-2 contact-links"></a>
+            <a href="mailto:lesliejpatino@gmail.com" target="_blank"><img src="assets/images/email.png" class="m-2 contact-links"></a>
             <a href="assets/images/Files/LesliePatino_Resume.pdf" target="_blank"><img src="assets/images/resumelink.png" class="m-2 contact-links"></a>
-            <a href="https://github.com/lesliejpatino" target="_blank"><img src="assets/images/github.png"
-                    class="m-2 contact-links"></a>
-            <a href="https://www.linkedin.com/in/lesliejpatino/" target="_blank"><img src="assets/images/linkedin.png"
-                    class="m-2 contact-links"></a>
+            <a href="https://github.com/lesliejpatino" target="_blank"><img src="assets/images/github.png" class="m-2 contact-links"></a>
+            <a href="https://www.linkedin.com/in/lesliejpatino/" target="_blank"><img src="assets/images/linkedin.png" class="m-2 contact-links"></a>
         </div>
     </div>
 

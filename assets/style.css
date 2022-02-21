@@ -26,23 +26,29 @@ header h3 span{
 
 /* all links */
 a {
-    color: grey;
     text-decoration: none;
 }
 
 /* Project Cards */
-/* .card img {
-    height: 200px;
-} */
-
 .card {
     height: 400px;
     overflow: scroll;
+    border: none;
 }
 
 #projects {
     margin: 0 auto;
 }
+
+.description{
+    text-align: center;
+}
+
+.projectGif {
+    height: 3 rem;
+    width: 95%;
+}
+
 
 /* contact links */
 .navbarContact{
@@ -63,6 +69,6 @@ a {
 }
 
 #headshot {
-    height: 10rem;
-    width: 10rem;
+    height: 9rem;
+    width: 9rem;
 }
