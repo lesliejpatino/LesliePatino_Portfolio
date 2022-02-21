@@ -46,7 +46,7 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-    margin-bottom: 2rem; 
+    margin-bottom: 5rem; 
 }
 
 .card h3 {
@@ -85,4 +85,9 @@ img {
     .card {
         display: block;
     }
+}
+
+#headshot {
+    height: 10rem;
+    width: 10rem;
 }
