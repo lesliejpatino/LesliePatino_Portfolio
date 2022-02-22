@@ -13,6 +13,7 @@ Thanks for visiting [my portfolio](https://lesliejpatino.github.io/LesliePatino_
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [AOS](https://michalsnik.github.io/aos/)
 
 
 # Author
