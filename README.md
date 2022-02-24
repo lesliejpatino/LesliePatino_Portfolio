@@ -3,7 +3,8 @@
 [Welcome to my portfolio!](https://lesliejpatino.github.io/LesliePatino_Portfolio/) As you explore it you'll find the most recent projects I've created, as well as my current skill set, resume, and contact information.
 
 # Demo
-[Visit Leslie's Portfolio](https://lesliejpatino.github.io/LesliePatino_Portfolio/)! 
+[Visit Leslie's Portfolio](https://lesliejpatino.github.io/LesliePatino_Portfolio/)
+<br>
 ![site](assets/images/deployedpic.png)
 
 # Technologies Used
